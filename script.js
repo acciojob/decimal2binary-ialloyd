@@ -3,7 +3,7 @@ function decimalToBinary(num) {
 	let res=""
 	while(num!=0){
 
-		res=res+num%2
+		res=num%2+res
 
 		num=Math.floor(num/2)
 
